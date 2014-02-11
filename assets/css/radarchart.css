@@ -1,0 +1,134 @@
+body {
+	background: none repeat scroll 0 0 #444444;
+	font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+	font-size: small;
+}
+
+div#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: white;
+}
+
+div#chart {
+	text-align: center;
+}
+
+.axis {
+	shape-rendering: crispEdges;
+}
+
+.polygon {
+	opacity: 0.2;
+}
+
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	font-family: 'Gill Sans MT','GillSans MT','Gill Sans',GillSans,Arial,Helvetica,sans-serif;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	background: none repeat scroll 0 0 rgba(4, 111, 187, 0.5);
+	border-top: 1px solid rgba(8, 195, 236, 0.4);
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.2), 0 -3px 5px rgba(6, 81, 137, 0.5) inset;
+	vertical-align: center;
+}
+
+a {
+	padding: 1px 1px;
+	vertical-align: center;
+	cursor: pointer;
+}
+
+a#toggle-avg {
+	font-family: 'Gill Sans MT','GillSans MT','Gill Sans',GillSans,Arial,Helvetica,sans-serif;
+	color: cyan;
+	text-decoration: none;
+}
+
+a#toggle-avg:hover, a.link-topic:hover {
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+a#toggle-avg.down {
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	border-radius: 4px 4px 4px 4px;
+	color: yellow;
+}
+
+#legend-svg {
+	display: none;
+	height: 75px;
+}
+
+#seriesid1 {
+	opacity: 0.5;
+}
+
+#handle_valueAA .ui-slider-range {
+	background: #729fcf;
+}
+
+#handle_valueAA .ui-slider-handle {
+	border-color: #729fcf;
+	text-decoration: none;
+}
+
+a.link-disabled {
+	cursor: default;
+}
+
+a.link-topic {
+	font-weight: bold;
+}
+
+a.link-topic text {
+	fill: red;
+}
+
+.link-topic-band {
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+	font-weight: bold;
+	color: white;
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	border-radius: 4px 4px 4px 4px;
+	cursor: pointer;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: url("../images/blue.jpg") repeat-x scroll 50% 50% #0000FF;
+}
+
+[class*="span"] {
+	margin-left: 0px;
+}
+
+label {
+	display: inline;
+}
+
+select {
+	width: auto;
+}
+
+.jumbotron {
+	padding: 0;
+}
+
+.subhead h1 {
+	font-size: 24px;
+}
+
+.jumbotron p {
+	font-size: 20px;
+}

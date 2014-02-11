@@ -1,0 +1,262 @@
+{
+	"name" : "IB Math Standard Level", "average":"3",
+	"children" : [
+		{
+			"name" : "Algebra", "average":"2.5",
+			"children" : [
+				{
+					"name" : "Sequences and Series", "average":"3",
+					"children" : [
+						{ "name" : "Arithmetic Sequences", "grade" : "3" },
+						{ "name" : "Geometric Sequences", "grade" : "3" },
+						{ "name" : "Arithmetic Series", "grade" : "3"  },
+						{ "name" : "Geometric Series", "grade" : "3"  }
+					]
+				},
+				{
+					"name" : "Exponents and Logarithms", "average":"2.5",
+					"children" : [
+						{ "name" : "Law of Exponents", "grade" : "3"  },
+						{ "name" : "Law of Logarithms", "grade" : "2"  }
+					]
+				},
+				{
+					"name" : "Binomial Theorem", "grade" : "2" 
+				}
+			]
+		},
+		{
+			"name" : "Functions and Equations", "average":"2.60",
+			"children" : [
+				{
+					"name" : "Intro to Functions", "average":"3",
+					"children" : [
+						{ "name" : "Concepts of Functions", "grade" : "3"  },
+						{ "name" : "Domains, Ranges, and Images of Functions", "grade" : "3"  },
+						{ "name" : "Composite Functions and Identity Functions", "grade" : "3"  },
+						{ "name" : "Inverse Functions", "grade" : "3"  }
+					]
+				},
+				{
+					"name" : "Graphs of Functions", "average":"2.5",
+					"children" : [
+						{ "name" : "Asymptotes", "grade" : "2"  },
+						{ "name" : "Zeros of Functions", "grade" : "3"  }
+					]
+				},
+				{
+					"name" : "Transformation", "grade" : "3" 
+				},
+				{
+					"name" : "Reciprocal Functions", "grade" : "3" 
+				},
+				{
+					"name" : "Quadratic Functions","average":"2.67",
+					"children" : [
+						{ "name" : "Graph of Quadratics", "grade" : "3"  },
+						{ "name" : "Quadratic Formula", "grade" : "2"  },
+						{ "name" : "Discriminant" , "grade" : "3" }
+					]
+				},
+				{
+					"name" : "Exponential Functions", "grade" : "3" 
+				},
+				{
+					"name" : "Logarithm Functions", "grade" : "1" 
+				}
+			]
+		},
+		{
+			"name" : "Trigonometry", "average":"1.72",
+			"children" : [
+				{
+					"name" : "Radian and Arc Length", "grade" : "2" 
+				},
+				{
+					"name" : "Definition of Trigonometric Functions", "grade" : "2" 
+				},
+				{
+					"name" : "Trigonometric Formulae", "average":"1",
+					"children" : [
+						{ "name" : "Compound Angle Formulae" , "grade" : "1" },
+						{ "name" : "Compound Trigonometric Functions Formulae", "grade" : "1"  },
+						{ "name" : "Double and Triple Angle Formulae", "grade" : "1"  }
+					]
+				},
+				{
+					"name" : "Graph of Trigonometric Functions", "average":"1.33",
+					"children" : [
+						{ "name" : "Domains and Ranges of Trigonometric Functions", "grade" : "2"  },
+						{ "name" : "Periodicity", "grade" : "1"  },
+						{ "name" : "Trigonometry Graphs in General", "grade" : "1"  }
+					]
+				},
+				{
+					"name" : "Trigonometric Equations", "grade" : "2" 
+				},
+				{
+					"name" : "Triangle Equations", "average":"2",
+					"children" : [
+						{ "name" : "Sine Rule" , "grade" : "2" },
+						{ "name" : "Cosine Rule", "grade" : "1"  },
+						{ "name" : "Area of Triangles", "grade" : "3"  }
+					]
+				}
+			]
+		},
+		{
+			"name" : "Matrices", "average":"3", "average":"2.73",
+			"children" : [
+				{
+					"name" : "Definition of Matrices and Terms", "grade" : "3" 
+				},
+				{
+					"name" : "Matrix Operations", "average":"2.67",
+					"children" : [
+						{ "name" : "Algebra of Matrices" , "grade" : "3" },
+						{ "name" : "Multiplication of Matrices", "grade" : "3"  },
+						{ "name" : "Identity and Zero Matrices" , "grade" : "2" }
+					]
+				},
+				{
+					"name" : "Determinant", "grade" : "2" 
+				},
+				{
+					"name" : "Inverse Matrices", "grade" : "3" 
+				},
+				{
+					"name" : "System of Linear Equations", "grade" : "3" 
+				}
+			]
+		},
+		{
+			"name" : "Vectors", "average":"2.61",
+			"children" : [
+				{
+					"name" : "Geometric Definition of Vectors", "grade" : "3" 
+				},
+				{
+					"name" : "Components of Vectors", "grade" : "3" 
+				},
+				{
+					"name" : "Algebra of Vectors", "grade" : "2" 
+				},
+				{
+					"name" : "Magnitude and Unit Vectors", "grade" : "2" 
+				},
+				{
+					"name" : "Dot Product", "average":"2.67",
+					"children" : [
+						{ "name" : "Dot Product Formulae", "grade" : "3"  },
+						{ "name" : "Perpendicular and Parallel Vectors", "grade" : "3"  },
+						{ "name" : "Angle Between Two Vectors", "grade" : "2"  }
+					]
+				},
+				{
+					"name" : "Lines as Vectors", "average":"3",
+					"children" : [
+						{ "name" : "Representation of Lines as Vectors" , "grade" : "3" },
+						{ "name" : "Coincident and Parallel Lines", "grade" : "3"  },
+						{ "name" : "Intersections of Lines", "grade" : "3"  }
+					]
+				}
+			]
+		},
+		{
+			"name" : "Statistics and Probability", "average":"1.38",
+			"children" : [
+				{
+					"name" : "Statistics", "average":"1.44",
+					"children" : [
+						{
+							"name" : "Event Space, Sample Space, and Frequency Distribution", "grade" : "1" 
+						},
+						{
+							"name" : "Frequency Tables and Diagrams", "average":"1.33",
+							"children" : [
+								{ "name" : "Grouped Data" , "grade" : "2" },
+								{ "name" : "Intervals" , "grade" : "1" },
+								{ "name" : "Frequency Histograms" , "grade" : "1" }
+							]
+						},
+						{
+							"name" : "Basic Statistical Measures", "average":"2",
+							"children" : [
+								{ "name" : "Mean, Median, Mode" , "grade" : "2" },
+								{ "name" : "Quartiles and Percentiles" , "grade" : "2" },
+								{ "name" : "Variances and Standard Deviations" , "grade" : "2" }
+							]
+						}
+					]
+				},
+				{
+					"name" : "Probability", "average":"1.33",
+					"children" : [
+						{ "name" : "Intro to Probability", "grade" : "1"  },
+						{ "name" : "Venn Diagrams, Tree Diagrams, and Tables of Outcomes", "grade" : "1"  },
+						{ "name" : "Inclusion-Exclusion Principles", "grade" : "1"  },
+						{ "name" : "Conditional Probability", "grade" : "2"  },
+						{ "name" : "Discrete Random Variables", "grade" : "1"  },
+						{ "name" : "Binomial and Normal Distributions", "grade" : "2"  }
+					]
+				}
+			]
+		},
+		{
+			"name" : "Elementary Calculus", "average":"2.4",
+			"children" : [
+				{
+					"name" : "Limits and Convergence", "grade" : "3" 
+				},
+				{
+					"name" : "Derivatives", "average":"2.6",
+					"children" : [
+						{
+							"name" : "Definition of Derivatives", "grade" : "3" 
+						},
+						{
+							"name" : "Differentiations of Basic Functions", "average":"3",
+							"children" : [
+								{ "name" : "Differentiations of Polynomials" , "grade" : "3" },
+								{ "name" : "Differentiations of Trigonometry" , "grade" : "3" },
+								{ "name" : "Differentiations of Exponentials and Logarithms", "grade" : "3"  }
+							]
+						},
+						{
+							"name" : "Differentiations of Complex Functions", "grade" : "3" 
+						},
+						{
+							"name" : "Chain Rule", "grade" : "2" 
+						},
+						{
+							"name" : "Second Derivative", "grade" : "2" 
+						}
+					]
+				},
+				{
+					"name" : "Local Extrema", "grade" : "3" 
+				},
+				{
+					"name" : "Anti-Derivatives", "average":"2.8",
+					"children" : [
+						{ "name" : "Indefinite Integrations" , "grade" : "2" },
+						{ "name" : "Boundary Conditions", "grade" : "3"  },
+						{ "name" : "Definite Integrations", "grade" : "3"  },
+						{ "name" : "Areas Under Curves" , "grade" : "3" },
+						{ "name" : "Volumes of Revolution", "grade" : "3"  }
+					]
+				},
+				{
+					"name" : "Kinematic Problems", "grade" : "2" 
+				},
+				{
+					"name" : "Significance of Second Derivatives", "average":"1",
+					"children" : [
+						{ "name" : "Distinction Between Maxima and Minima", "grade" : "1"  },
+						{ "name" : "Points of Inflexion", "grade" : "1"  }
+					]
+				}
+			]
+		}
+	]
+}

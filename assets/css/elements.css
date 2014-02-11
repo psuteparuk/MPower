@@ -1,0 +1,10 @@
+/*----------------------------------------------Elements-----------------------------------*/
+
+.btn {background-color:#2B91AF; border-radius:10px; box-shadow:0 2px 3px rgba(0,0,0,0.3); color:#FFFFFF; cursor:pointer; display:inline-block; padding:5px 10px; text-align:center; text-decoration:none;}
+.btn > span {font-size:84%; border:0 none; margin:0; padding:0; vertical-align:baseline;}
+.btn.b-close{border-radius:7px; box-shadow:none; font:bold 131% sans-serif; padding:0 6px 2px; position:absolute; right:-7px; top:-7px;}
+.btn-login,.btn-edit,.btn-save{background-color:#5BB75B; background-image:-moz-linear-gradient(center top,#62C462,#51A351); border-radius:5px; color:#FFFFFF; cursor:pointer; display:inline-block; padding:5px 10px; text-align:center; text-decoration:none;}
+.btn-edit,.btn-save{border-radius:10px; box-shadow:0 2px 3px rgba(0,0,0,0.3);}
+.btn-add{background-color:#FF9900;}
+.btn-create{background-color:#FF0000;}
+.btn-remove{background-color:#979797;}

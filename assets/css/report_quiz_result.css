@@ -1,0 +1,136 @@
+body {
+	background: none repeat scroll 0 0 #444444;
+	font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+	font-size: small;
+}
+
+div#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	font-family: 'Gill Sans MT','GillSans MT','Gill Sans',GillSans,Arial,Helvetica,sans-serif;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.1);
+	background: none repeat scroll 0 0 rgba(4, 111, 187, 0.5);
+	border-top: 1px solid rgba(8, 195, 236, 0.4);
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.2), 0 -3px 5px rgba(6, 81, 137, 0.5) inset;
+	vertical-align: center;
+}
+
+a {
+	padding: 1px 1px;
+	vertical-align: center;
+	cursor: pointer;
+}
+
+a#toggle-avg {
+	font-family: 'Gill Sans MT','GillSans MT','Gill Sans',GillSans,Arial,Helvetica,sans-serif;
+	color: cyan;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a#toggle-avg:hover, a.link-topic:hover {
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+a#toggle-avg.down {
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	border-radius: 4px 4px 4px 4px;
+	color: yellow;
+}
+
+a.selected {
+	font-weight: bold;
+}
+
+fieldset {
+	padding: 0px 5px 15px 15px;
+}
+
+.info-label {
+	width: auto;
+}
+
+div#info-correct {
+	color: green;
+}
+
+div#info-incorrect {
+	color: red;
+}
+
+#legend-svg {
+	height: 60px;
+}
+
+#legend-svg-mean {
+	display: none;
+	height: 30px;
+}
+
+table, tr, td {
+	text-align: center;
+	padding: 0;
+}
+
+table, tr {
+	width: auto;
+}
+
+td {
+	width: 100px;
+}
+
+#switch-bar, #switch-scatter {
+	text-align: center;
+	vertical-align: center;
+	padding: 0;
+	margin: 10px;
+	text-decoration: none;
+}
+
+#switch-bar {
+	font-weight: bold;
+}
+
+#left-nav-container {
+	width: 220px;
+	padding-top: 70px;
+	float: left;
+}
+
+a.quiz-active {
+	font-weight: bold;
+	color: blue;
+	pointer-events: none;
+	cursor: default;
+}
+
+[class*="span"] {
+	margin-left: 0px;
+}
+
+#blueprint-container {
+	float: left;
+}

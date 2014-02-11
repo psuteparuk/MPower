@@ -1,0 +1,19 @@
+#report_links_div #report_links{float:left; width:600px;}
+#report_links_div #report_links h2.title{margin-bottom:20px;}
+
+#report_links_div #report_links nav{display:block; width:100%; margin-bottom:30px;}
+#report_links_div #report_links nav ul{margin:0; padding:0; list-style:none;}
+#report_links_div #report_links nav li{margin:0 0 3px 0; padding:0;}
+#report_links_div #report_links nav li.last{margin-bottom:0;}
+#report_links_div #report_links nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; background:url("../images/orange_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none;}
+#report_links_div #report_links nav a:hover{color:#FF9900; background-color:#FFFFFF;}
+#report_links_div #report_links nav a.btn{background-image:none; background-color:#2B91AF; border-radius:10px; box-shadow:0 2px 3px rgba(0,0,0,0.3); color:#FFFFFF; cursor:pointer; display:inline-block; padding:5px 10px; text-align:center; text-decoration:none;}
+#report_links_div #report_links nav a.btn:hover{background-color:#2B91AF;}
+
+.report_dropdown, .report_create{display:inline-block; display:none; margin-bottom:15px; background-color:#FFFFFF; border:1px solid #CCCCCC; border-radius:10px; padding:5px 10px; width:100%;}
+.report_dropdown h2{color:#777777;}
+.report_dropdown p{margin-top:0; font-size:16px; font-style:italic;}
+.report_dropdown input[type=button]{float:right;}
+.report_dropdown a{float:right;}
+.report_dropdown .subreport_dropdown{border-bottom:1px solid #CCCCCC; margin-bottom:15px;}
+.report_dropdown .last{border-bottom:none; margin-bottom:none;}
