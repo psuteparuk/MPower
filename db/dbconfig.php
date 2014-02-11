@@ -8,5 +8,6 @@ $link_db = mysql_connect($host, $username, $password);
 if (!$link_db) {
 	die("Could not connect: " . mysql_error());
 }
+echo "hey";
 //mysql_select_db($db_name);
 ?>
